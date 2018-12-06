@@ -5,6 +5,9 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle' }
 Plug 'airblade/vim-gitgutter'
 
+" Common
+Plug 'jiangmiao/auto-pairs'
+
 " HTML/CSS
 Plug 'mattn/emmet-vim', { 'for': ['html', 'css', 'scss', 'sass'] }
 
