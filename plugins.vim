@@ -11,7 +11,10 @@ Plug 'airblade/vim-gitgutter'
 Plug 'jiangmiao/auto-pairs'
 
 " HTML/CSS
-Plug 'mattn/emmet-vim', { 'for': ['html', 'css', 'scss', 'sass'] }
+let style_extensions = ['css', 'scss', 'sass']
+
+Plug 'mattn/emmet-vim', { 'for': add(style_extensions, 'html') }
+Plug 'ap/vim-css-color', { 'for': style_extensions }
 
 " Syntax highlighting
 Plug 'slim-template/vim-slim', { 'for': ['slim'] }
