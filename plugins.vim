@@ -17,7 +17,8 @@ Plug 'mattn/emmet-vim', { 'for': add(style_extensions, 'html') }
 Plug 'ap/vim-css-color', { 'for': style_extensions }
 
 " Syntax highlighting
-Plug 'slim-template/vim-slim', { 'for': ['slim'] }
+Plug 'slim-template/vim-slim', { 'for': 'slim' }
+Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 
 " Colorscheme
 Plug 'dracula/vim', { 'as': 'dracula' }
