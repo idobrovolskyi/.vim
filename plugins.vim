@@ -2,6 +2,7 @@
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'easymotion/vim-easymotion'
 
 " UI
 Plug 'vim-airline/vim-airline'
