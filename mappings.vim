@@ -1,3 +1,5 @@
+let mapleader=","
+
 map <C-n> :NERDTreeToggle<CR>
 
 nnoremap <C-p> :GFiles<CR>
