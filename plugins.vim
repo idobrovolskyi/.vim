@@ -12,6 +12,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle' }
 Plug 'airblade/vim-gitgutter'
 
 " Common
+Plug 'tpope/vim-commentary'
 Plug 'jiangmiao/auto-pairs'
 
 " HTML/CSS
