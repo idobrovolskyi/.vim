@@ -1,3 +1,5 @@
+let style_extensions = ['css', 'scss', 'sass']
+
 " Navigation
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -13,13 +15,14 @@ Plug 'airblade/vim-gitgutter'
 
 " Common
 Plug 'tpope/vim-commentary'
-Plug 'jiangmiao/auto-pairs'
+Plug 'jiangmiao/auto-pairs', { 'for': style_extensions }
 
 " HTML/CSS
-let style_extensions = ['css', 'scss', 'sass']
-
 Plug 'mattn/emmet-vim', { 'for': add(style_extensions, 'html') }
 Plug 'ap/vim-css-color', { 'for': style_extensions }
+
+" Clojure
+Plug 'bhurlow/vim-parinfer', { 'for': ['clojure', 'clojurescript'] }
 
 " Syntax highlighting
 Plug 'slim-template/vim-slim', { 'for': 'slim' }
