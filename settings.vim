@@ -8,6 +8,9 @@ set expandtab
 set shiftwidth=2
 set tabstop=2
 
+" Specify clojure settings
+autocmd Filetype clojure setlocal tabstop=1 shiftwidth=1
+
 " Searching
 set hlsearch
 set incsearch
