@@ -1,7 +1,7 @@
 let style_extensions = ['css', 'scss', 'sass']
 
 " Navigation
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'scrooloose/nerdtree', { 'on':  ['NERDTreeToggle', 'NERDTreeFind'] }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'easymotion/vim-easymotion'
@@ -10,7 +10,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'vim-airline/vim-airline'
 
 " Git
-Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle' }
+Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
 Plug 'airblade/vim-gitgutter'
 
 " Common
