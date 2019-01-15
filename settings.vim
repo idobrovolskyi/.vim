@@ -23,3 +23,9 @@ set nobackup
 
 " Disable beep and flash
 set vb t_vb=
+
+" indentLine setup
+let g:indentLine_char = "·"
+let g:indentLine_setColors = 0
+let g:indentLine_leadingSpaceEnabled = 1
+let g:indentLine_leadingSpaceChar = "·"

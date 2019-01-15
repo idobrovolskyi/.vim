@@ -8,6 +8,7 @@ Plug 'easymotion/vim-easymotion'
 
 " UI
 Plug 'vim-airline/vim-airline'
+Plug 'Yggdroot/indentLine'
 
 " Git
 Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
