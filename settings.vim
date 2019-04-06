@@ -8,6 +8,9 @@ set expandtab
 set shiftwidth=2
 set tabstop=2
 
+:highlight ExtraWhitespace ctermbg=red guibg=red
+:match ExtraWhitespace /\s\+$/
+
 " Specify clojure settings
 autocmd Filetype clojure setlocal tabstop=1 shiftwidth=1
 
@@ -23,9 +26,3 @@ set nobackup
 
 " Disable beep and flash
 set vb t_vb=
-
-" indentLine setup
-let g:indentLine_char = "·"
-let g:indentLine_setColors = 0
-let g:indentLine_leadingSpaceEnabled = 1
-let g:indentLine_leadingSpaceChar = "·"
