@@ -12,3 +12,6 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 map <leader>r :w <bar> :!ruby % <CR>
+
+" Select just pasted text
+nnoremap gp `[v`]
