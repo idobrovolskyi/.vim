@@ -9,6 +9,7 @@ Plug 'easymotion/vim-easymotion'
 " UI
 Plug 'vim-airline/vim-airline'
 Plug 'Yggdroot/indentLine'
+Plug 'kien/rainbow_parentheses.vim'
 
 " Git
 Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
