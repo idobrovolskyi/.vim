@@ -18,3 +18,6 @@ nnoremap gp `[v`]
 
 " Open .vimrc file
 nnoremap <leader>ev :tabnew $MYVIMRC<cr>:NERDTreeFind<cr>
+
+" Source vim settings
+nnoremap <leader>sv :source $MYVIMRC<cr>
