@@ -15,3 +15,6 @@ map <leader>r :w <bar> :!ruby % <CR>
 
 " Select just pasted text
 nnoremap gp `[v`]
+
+" Open .vimrc file
+nnoremap <leader>ev :tabnew $MYVIMRC<cr>:NERDTreeFind<cr>
