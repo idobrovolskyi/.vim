@@ -2,6 +2,7 @@
 syntax on
 color dracula
 set number
+set showtabline=2
 
 " Whitespace
 set expandtab
