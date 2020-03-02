@@ -27,10 +27,3 @@ set nobackup
 
 " Disable beep and flash
 set vb t_vb=
-
-" Enable RainbowParentheses
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
-au Syntax * RainbowParenthesesLoadChevrons
