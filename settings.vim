@@ -27,3 +27,5 @@ set nobackup
 
 " Disable beep and flash
 set vb t_vb=
+
+let g:ale_linters = {'clojure': ['clj-kondo', 'joker']}
