@@ -17,7 +17,7 @@ map <leader>r :w <bar> :!ruby % <CR>
 nnoremap gp `[v`]
 
 " Open .vimrc file
-nnoremap <leader>ev :tabnew $MYVIMRC<cr>:NERDTreeFind<cr>
+nnoremap <leader><leader>ev :tabnew $MYVIMRC<cr>:NERDTreeFind<cr>
 
 " Source vim settings
-nnoremap <leader>sv :source $MYVIMRC<cr>
+nnoremap <leader><leader>sv :source $MYVIMRC<cr>
