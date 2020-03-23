@@ -27,6 +27,7 @@ Plug 'ap/vim-css-color', { 'for': style_extensions }
 
 " Clojure
 Plug 'bhurlow/vim-parinfer', { 'for': ['clojure', 'clojurescript'] }
+Plug 'tpope/vim-fireplace', { 'for': ['clojure', 'clojurescript'] }
 
 " Syntax highlighting
 Plug 'slim-template/vim-slim', { 'for': 'slim' }
