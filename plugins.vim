@@ -18,8 +18,8 @@ Plug 'airblade/vim-gitgutter'
 
 " Common
 Plug 'tpope/vim-commentary'
-Plug 'jiangmiao/auto-pairs', { 'for': style_extensions }
 Plug 'tpope/vim-surround'
+Plug 'jiangmiao/auto-pairs'
 
 " HTML/CSS
 Plug 'mattn/emmet-vim', { 'for': add(style_extensions, 'html') }
