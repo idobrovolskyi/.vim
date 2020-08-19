@@ -15,6 +15,10 @@ set tabstop=2
 " Specify clojure settings
 autocmd Filetype clojure setlocal tabstop=1 shiftwidth=1
 
+" Set syntax
+au BufRead,BufNewFile *.transit setfiletype ruby
+au BufRead,BufNewFile *.mjml setfiletype slim
+
 " Searching
 set hlsearch
 set incsearch
