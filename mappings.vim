@@ -13,6 +13,8 @@ nnoremap <C-l> <C-w>l
 
 nnoremap <leader>r :w <bar> :!ruby % <CR>
 
+nnoremap <esc><esc> :noh <cr>
+
 " Select just pasted text
 nnoremap gp `[v`]
 
