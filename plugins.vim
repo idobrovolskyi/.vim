@@ -15,6 +15,7 @@ Plug 'dense-analysis/ale'
 " Git
 Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
 Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
 
 " Common
 Plug 'tpope/vim-commentary'
