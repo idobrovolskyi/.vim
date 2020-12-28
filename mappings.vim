@@ -4,6 +4,7 @@ map <C-n> :NERDTreeToggle<CR>
 map <C-m> :NERDTreeFind<CR>
 
 inoremap <leader>s <esc>:w<cr>
+nnoremap <leader>s :w<cr>
 
 nnoremap <C-p> :GFiles<CR>
 
