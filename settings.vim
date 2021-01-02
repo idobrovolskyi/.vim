@@ -5,9 +5,7 @@ set number
 set showtabline=2
 
 " Whitespace
-set expandtab
-set shiftwidth=2
-set tabstop=2
+set expandtab shiftwidth=2 tabstop=2
 
 :highlight ExtraWhitespace ctermbg=red guibg=red
 :match ExtraWhitespace /\s\+$/
@@ -20,14 +18,10 @@ au BufRead,BufNewFile *.transit setfiletype ruby
 au BufRead,BufNewFile *.mjml setfiletype slim
 
 " Searching
-set hlsearch
-set incsearch
-set ignorecase
-set smartcase
+set hlsearch incsearch ignorecase smartcase
 
 " Disable backups
-set noswapfile
-set nobackup
+set noswapfile nobackup
 
 " Disable beep and flash
 set vb t_vb=
