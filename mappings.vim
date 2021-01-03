@@ -6,8 +6,8 @@ map <C-m> :NERDTreeFind<CR>
 " Yank to system clipboard
 noremap <leader>y "*y
 
-inoremap <leader>s <esc>:w<cr>
-nnoremap <leader>s :w<cr>
+" Quick save
+noremap <leader>s <esc>:w<cr>
 
 nnoremap <C-p> :GFiles<CR>
 
