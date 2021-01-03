@@ -3,6 +3,9 @@ let mapleader=","
 map <C-n> :NERDTreeToggle<CR>
 map <C-m> :NERDTreeFind<CR>
 
+" Yank to system clipboard
+noremap <leader>y "*y
+
 inoremap <leader>s <esc>:w<cr>
 nnoremap <leader>s :w<cr>
 
