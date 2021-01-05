@@ -10,12 +10,16 @@ set expandtab shiftwidth=2 tabstop=2
 :highlight ExtraWhitespace ctermbg=red guibg=red
 :match ExtraWhitespace /\s\+$/
 
-" Specify clojure settings
-autocmd Filetype clojure setlocal tabstop=1 shiftwidth=1
+augroup vimrc
+  " Clear all autocmds in the group
+  autocmd!
 
-" Set syntax
-au BufRead,BufNewFile *.transit setfiletype ruby
-au BufRead,BufNewFile *.mjml setfiletype slim
+  " Specify clojure settings
+  au Filetype clojure setlocal tabstop=1 shiftwidth=1
+
+  au BufRead,BufNewFile *.transit setf ruby
+  au BufRead,BufNewFile *.mjml setf slim
+augroup END
 
 " Searching
 set hlsearch incsearch ignorecase smartcase
