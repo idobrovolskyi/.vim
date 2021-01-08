@@ -25,7 +25,7 @@ nnoremap gt <Nop>
 
 nnoremap <leader>r :w <bar> :!ruby % <CR>
 
-nnoremap <esc><esc> :noh <cr>
+nnoremap <esc> :noh <cr>
 
 " Select just pasted text
 nnoremap gp `[v`]
