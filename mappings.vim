@@ -17,6 +17,12 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" Easier tab navigation
+nnoremap H gT
+nnoremap L gt
+nnoremap gT <Nop>
+nnoremap gt <Nop>
+
 nnoremap <leader>r :w <bar> :!ruby % <CR>
 
 nnoremap <esc><esc> :noh <cr>
