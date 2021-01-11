@@ -7,7 +7,6 @@ Plug 'junegunn/fzf.vim'
 Plug 'easymotion/vim-easymotion'
 
 " UI
-Plug 'vim-airline/vim-airline'
 Plug 'Yggdroot/indentLine'
 Plug 'lifepillar/vim-cheat40'
 Plug 'dense-analysis/ale'
