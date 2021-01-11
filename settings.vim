@@ -37,7 +37,7 @@ set statusline+=%=                            " left-right separation point
 set statusline+=\ %m%r                        " modified
 set statusline+=\ %y                          " filetype
 set statusline+=\ %2*\ %{fugitive#head()}\ %*
-set statusline+=\ %l/%L                       " current line/total lines
+set statusline+=\ %l/%L\                      " current line/total lines
 
 hi statusline ctermfg=231 ctermbg=60
 hi User1 ctermfg=222 ctermbg=60
