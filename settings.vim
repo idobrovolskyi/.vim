@@ -5,10 +5,16 @@ set number
 set showtabline=2
 
 " Whitespace
+:highlight Whitespace ctermfg=212
+
 set expandtab shiftwidth=2 tabstop=2
 
-:highlight ExtraWhitespace ctermbg=red guibg=red
-:match ExtraWhitespace /\s\+$/
+augroup trail
+  autocmd!
+
+  au InsertEnter,BufLeave * setlocal nolist
+  au InsertLeave,BufEnter * setlocal list listchars+=tab:▸\ ,trail:•
+augroup END
 
 augroup vimrc
   " Clear all autocmds in the group
