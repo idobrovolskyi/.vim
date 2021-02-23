@@ -31,7 +31,7 @@ nnoremap <esc> :noh <cr>
 nnoremap gp `[v`]
 
 " Open .vimrc file
-nnoremap <leader><leader>ev :tabnew $MYVIMRC<cr>:NERDTreeFind<cr>
+nnoremap <leader><leader>ev :tabnew $HOME/.vim/.vimrc<cr>:NERDTreeFind<cr>
 
 " Source vim settings
-nnoremap <leader><leader>sv :source $MYVIMRC<cr>
+nnoremap <leader><leader>sv :source $HOME/.vim/.vimrc<cr>
