@@ -42,6 +42,7 @@ set statusline=%<%1*\ %f\ %0*                 " filename
 set statusline+=%=                            " left-right separation point
 set statusline+=\ %m%r                        " modified
 set statusline+=\ %y                          " filetype
+set statusline+=\ %2*\ %{ObsessionStatus(\"session\"\,\"unsession\")}\ %*
 set statusline+=\ %2*\ %{fugitive#head()}\ %*
 set statusline+=\ %l/%L\                      " current line/total lines
 
