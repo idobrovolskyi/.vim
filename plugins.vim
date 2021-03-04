@@ -19,6 +19,7 @@ Plug 'tpope/vim-fugitive'
 " Common
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-obsession'
 Plug 'jiangmiao/auto-pairs'
 
 " HTML/CSS
