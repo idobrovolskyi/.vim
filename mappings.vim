@@ -3,6 +3,10 @@ let mapleader=","
 map <C-n> :NERDTreeToggle<CR>
 map <C-m> :NERDTreeFind<CR>
 
+"Quicklist navigation
+nnoremap <leader><C-n> :cnext<CR>
+nnoremap <leader><C-p> :cprev<CR>
+
 " Yank to system clipboard
 noremap <leader>y "*y
 
