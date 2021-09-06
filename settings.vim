@@ -36,6 +36,8 @@ set noswapfile nobackup
 " Disable beep and flash
 set vb t_vb=
 
+let g:NERDTreeWinSize=45
+
 let g:ale_linters = {'clojure': ['clj-kondo', 'joker']}
 
 set statusline=%<%1*\ %f\ %0*                 " filename
