@@ -3,6 +3,7 @@ syntax on
 color dracula
 set number
 set showtabline=2
+set cursorline
 
 " Whitespace
 :highlight Whitespace ctermfg=212
