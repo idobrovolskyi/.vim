@@ -9,7 +9,6 @@ Plug 'mg979/vim-visual-multi'
 
 " UI
 Plug 'Yggdroot/indentLine'
-Plug 'lifepillar/vim-cheat40'
 Plug 'dense-analysis/ale'
 
 " Git
