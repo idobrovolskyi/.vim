@@ -5,8 +5,8 @@ let g:VM_maps = {}
 let g:VM_maps['Find Under']         = '<C-s>' " replace C-n
 let g:VM_maps['Find Subword Under'] = '<C-s>' " replace visual C-n
 
-map <C-n> :NERDTreeToggle<CR>
-map <C-m> :NERDTreeFind<CR>
+nnoremap <C-n> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
 
 " Quicklist navigation
 nnoremap <leader><C-n> :cnext<CR>
