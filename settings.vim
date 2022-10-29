@@ -38,6 +38,7 @@ set noswapfile nobackup
 set vb t_vb=
 
 let g:NERDTreeWinSize=60
+let NERDTreeShowHidden=1
 
 let g:ale_linters = {'clojure': ['clj-kondo', 'joker']}
 
