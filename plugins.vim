@@ -1,11 +1,12 @@
 let style_extensions = ['css', 'scss', 'sass']
 
-" Navigation
+" Navigation/motion
 Plug 'scrooloose/nerdtree', { 'on':  ['NERDTreeToggle', 'NERDTreeFind'] }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'mg979/vim-visual-multi'
+Plug 'rhysd/clever-f.vim'
 
 " UI
 Plug 'Yggdroot/indentLine'
