@@ -18,9 +18,6 @@ noremap <leader>y "*y
 " Quick save
 noremap <leader>s <esc>:w<cr>
 
-nnoremap <silent> <C-p> :GFiles<CR>
-nnoremap <silent> <C-b> :Buffers<CR>
-
 " Easier window navigation
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
