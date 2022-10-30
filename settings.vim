@@ -10,13 +10,6 @@ set cursorline
 
 set expandtab shiftwidth=2 tabstop=2
 
-augroup trail
-  autocmd!
-
-  au InsertEnter,BufLeave * setlocal nolist
-  au InsertLeave,BufEnter * setlocal list listchars+=tab:▸\ ,trail:•
-augroup END
-
 augroup vimrc
   " Clear all autocmds in the group
   autocmd!

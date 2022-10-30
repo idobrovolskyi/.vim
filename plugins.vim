@@ -23,6 +23,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-obsession'
 Plug 'tpope/vim-repeat'
 Plug 'jiangmiao/auto-pairs'
+Plug 'bronson/vim-trailing-whitespace'
 
 " HTML/CSS
 Plug 'mattn/emmet-vim', { 'for': add(style_extensions, 'html') }
