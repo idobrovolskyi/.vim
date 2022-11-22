@@ -30,6 +30,9 @@ nnoremap L gt
 nnoremap gT <Nop>
 nnoremap gt <Nop>
 
+" center previous position
+nnoremap <C-o> <C-o>zz
+
 nnoremap <leader>r :w <bar> :!ruby % <CR>
 
 nnoremap <esc> :noh <cr>
